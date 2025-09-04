@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUTS</title>
+</head>
+<body>
+    <fieldset>
+        <!-- fieldset ,hum jo kuch bhi karenge uski boundary kar dega -->
+        <legend>PERSONAL BIODATA</legend>
+        <!-- legend uss boundary ke uppar sbse uppar left corner par jo humne legend me diya usse likh dega -->
+    <!-- there are many input formats in web development -->
+     <!-- label ka kaam ye btana h ke hum isme kya input lenge -->
+      <!-- placeholder is the hint type what you want to user to give input -->
+     <label for="naam">Name:</label>
+     <!-- input creates the workplace for taking input -->
+     <input type="text" id="naam" placeholder="enter your name here">
+     <br>
+     <br>
+     <label for="mail">Email ID</label>
+     <input type="email"id="mail" placeholder="enter the email here">
+     <br>
+     <br>
+     <label for="pass">Password:</label>
+     <input type="password" autofocus id="pass" placeholder="enter the password">
+
+     <!-- orr bhi bahut sare input type hote h we can see them by using input tag then there will be a dropdown list
+      we can see them all there and can use them as needed -->
+      <label for="document">file:</label>
+      <input type="file" id="document">
+      <br><br><br>
+      <!-- check box  -->
+       <p>WHAT ARE THE HABITS YOU FOLLOW WHEN YOU ARE IN LOVE ?</p>
+       <label for="option1">1.Text her often </label>
+       <input type="checkbox" id="option1">
+       <br>
+       <label for="option2">2.Sees her photo for hours</label>
+       <input type="checkbox" id="option2">
+
+       <!-- radio button -->
+        <!-- radio button ko selct karne ke liye taki koe ek hi select ho hum name naam ke attribute ko sare input type
+         me de denge with same name like name="gender" , toh saare input types me name="gender dena pdega" -->
+        <p>HOW MANY GIRLFIRENDS DO YOU HAVE?</p>
+        <label for="firstoption">0</label>
+        <input type="radio" name="gender" id="firstoption">
+        <br>
+        <label for="secondoption">1</label>
+        <input type="radio"name="gender" id="secondoption">
+        <br>
+        <label for="thirdoption">2 or more</label>
+        <input type="radio"name="gender" id="thirdoption">
+        
+        <br>
+        <!-- text area -->
+         <p>Textarea:</p>
+         <textarea rows="40" cols="40"></textarea>
+         <br>
+         <br>
+         <!--Options wala tag -->
+         SELECT YOUR BIRTHDAY MONTH:
+         <br>
+         <select>
+            <option>JAN</option>
+            <option >FEB</option>
+            <option >MAR</option>
+            <option >APR</option>
+            <option >MAY</option>
+            <option >JUN</option>
+            <option >JUL</option>
+            <option selected >AUG</option>
+            <option >SEP</option>
+            <option >OCT</option>
+            <option >NOV</option>
+            <option >DEC</option>
+         </select>
+         <br>
+
+         <!-- agar hum kisi input ko dikhana toh chahte h par input usme lena nhi chahte toh we use disabled  -->
+         <label for="mygmail">YOUR EMAIL:</label>
+         <br>
+         <input type="email" id="mygmail" disabled>
+
+         <!-- agar hum kisi page ke khulte hii agr kisi input par focus karna chahte h ke user iss cheej ko phle input
+          de toh hum use karte h autofocus -->
+          <!-- ye autofocus mene uppar password wale field me use kiya h -->
+
+          <!-- input par constrains  -->
+           <label for="no">Mobile Number:</label>
+           <input type="number" maxlength="10" placeholder="e.g. 8745321234">
+
+           <!-- there are many restrictions like min and max in which we give min and max value 
+            isse neeche value nhi hogi and isse uppar nhi hogi  -->
+            <label for="minmax">YOUR AGE:</label>
+            <input type="number" min="1" max="100" placeholder="enter your age">
+</fieldset>
+
+</body>
+</html>

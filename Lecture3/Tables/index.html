@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLES</title>
+</head>
+<body>
+    <h1>DAYS OF WEEK</h1>
+    <!-- spacing ke use karte h between cells => cellspacing="" attribute  -->
+     <!-- cell ke andar spacing ke use karte h cell padding isse cell ke andar ka text gap bana lega from cell  -->
+    <table border="2" cellspacing="20" cellpadding="20" >
+        <thead>
+            <!-- tr hota h table row banane ke liye -->
+            <tr>
+                <!-- th hota hai heading ke liye 
+                 tr hota h normal text ke liye -->
+                <th>DAYS/Periods</th>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THU</th>
+                <th>FRI</th>
+                <th>SAT</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- rowspan row ko merze karne ke liye hota h  -->
+                 <!-- ese hii hum colspan ka use kar skte h  -->
+                <td>1</td>
+                <td rowspan="3">physics</td>
+                <td rowspan="5">chemistry</td>
+                <td rowspan="4">maths</td>
+                <td rowspan="2">english</td>
+                <td rowspan="4">hindi</td>
+                <td rowspan="2">cs</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <!-- <td>physics</td> -->
+                <!-- <td>chemistry</td> -->
+                <!-- <td>maths</td> -->
+                <!-- <td>english</td> -->
+                <!-- <td>hindi</td> -->
+                <!-- <td>cs</td> -->
+            </tr>
+            <tr>
+                <td>3</td>
+                <!-- <td>physics</td> -->
+                <!-- <td>chemistry</td> -->
+                <!-- <td>maths</td> -->
+                <!-- <td>hindi</td> -->
+                <td>hindi</td>
+                <td>hindi</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>HTML</td>
+                <!-- <td>chemistry</td> -->
+                <!-- <td>maths</td> -->
+                <td>maths</td>
+                <!-- <td>hindi</td> -->
+                <td>cs</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>physics</td>
+                <!-- <td>chemistry</td> -->
+                <td>biology</td>
+                <td>english</td>
+                <td>cs</td>
+                <td>hindi</td>
+            </tr>
+        </tbody>
+        
+    </table>
+
+    <!-- td=data start se suru hoga / left align by default
+        th= data bold and centre aligned hoti h  -->
+
+</body>
+</html>

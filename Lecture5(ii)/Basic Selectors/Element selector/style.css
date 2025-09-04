@@ -1,0 +1,9 @@
+div{
+    color: red;
+    background-color: palegoldenrod;
+}
+/* low preference as div inside hai toh uske changes ki preferece jyda hogi */
+section{
+    color: rgb(83, 83, 151);
+    background-color: black;
+}

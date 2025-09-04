@@ -1,0 +1,38 @@
+/* DESCENDENT COMBINATOR */
+div li{
+    color: blue;
+}
+
+div ul li{
+    background-color: bisque;
+}
+
+/* CHILD COMBINATORS */
+section>div>h1{
+    color: blueviolet;
+}
+
+article>h2{
+    color: red;
+}
+
+/* ADJACENT  SIBLING  */
+section + section{
+    color: crimson;
+}
+
+div + section{
+    background-color: turquoise;
+}
+
+div+section+section{
+    color: chartreuse;
+}
+
+
+/* GENERAL SIBLING  */
+
+section ~ article{
+    color: brown;
+    background-color: yellow;
+}

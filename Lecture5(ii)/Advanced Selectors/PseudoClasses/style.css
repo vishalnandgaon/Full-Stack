@@ -1,0 +1,56 @@
+/* HOVER PSEUDOCLASS */
+h1{
+    background-color: bisque;
+}
+
+h1:hover{
+    background-color: palevioletred;
+}
+
+a:hover{
+    color: chocolate;
+}
+
+label[for=naam]:hover{
+    border: 5px solid black;
+    background-color: brown;
+    color: rgb(61, 16, 167);
+}
+
+/* ACTIVE PSEUDOCLASS */
+
+a[href="https://www.google.com/?zx=1756951278782&no_sw_cr=1"]:active{
+    color: green;
+}
+
+/* VISITED PSEUDOCLASS */
+a[href="https://www.google.com/?zx=1756951278782&no_sw_cr=1"]:visited{
+    color: green;
+}
+
+/* FOCUS PSEUDOCLASS */
+input{
+    background-color: blanchedalmond;
+}
+input:hover{
+    background-color: brown;
+}
+
+input:focus{
+    background-color: green;
+}
+
+
+/* N-TH OF TYPE PSEUDOCLASS */
+
+li:nth-of-type(even){
+    color: blue;
+}
+
+li:last-child{
+    color: greenyellow;
+}
+/* format= an+b, b=kitne chodne h , an=interval  */
+li:nth-of-type(3n+5){
+    background-color: black;
+}

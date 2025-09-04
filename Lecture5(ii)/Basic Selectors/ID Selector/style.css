@@ -1,0 +1,16 @@
+/* element selector */
+div{
+    border: 2px;
+    color: black;
+    background-color: aqua;
+}
+/* id selector */
+#special{
+    color: red;
+    background-color: bisque;
+}
+
+#love{
+    color:pink;
+    background-color: brown;
+}

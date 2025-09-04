@@ -1,0 +1,19 @@
+/* string matching starts with */
+a[href ^= "https"]{
+    color: white;
+    background-color: black;
+}
+
+/* string matching ends with */
+a[href$="k.com"]{
+    color: aqua;
+    background-color: brown;
+}
+
+
+/* string matching present anywhere  */
+
+a[href *="mylove"]{
+    color: magenta;
+    background-color: black;
+}

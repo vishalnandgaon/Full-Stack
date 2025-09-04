@@ -1,0 +1,13 @@
+/* universal selector */
+*{
+    border: 2px solid goldenrod;
+}
+/* element selector */
+body{
+    border: 20px solid green;
+}
+
+*{
+    margin: 0;
+    padding:0;
+}

@@ -1,0 +1,21 @@
+input[disabled]{
+    border: 2px;
+    background-color: bisque;
+}
+
+input[type="email"]{
+    border: 3px;
+    background-color: aqua;
+    color: red;
+}
+
+label[for="naam"]{
+    border: 2px black solid;
+    color: red;
+}
+
+a[href="www.google.com"]{
+    font-size: 40px;
+    background-color: pink;
+    color: crimson;
+}
