@@ -1,0 +1,31 @@
+div{
+    border: 3px solid black;
+    height: 200px;
+    width: 300px;
+}
+/* hexadecimal */
+div:nth-of-type(1){
+    background-color: #ff0;
+    
+}
+
+/* RGB */
+div:nth-of-type(3){
+    background-color:rgb(20, 32, 139);
+}
+
+/* RGBA */
+/* A means alpha channel means opacity */
+div:nth-of-type(2){
+    background-color: rgba(24, 1, 54, 0.9);
+    /* jitna jyada alpha utna bright color */
+}
+
+
+
+/* EXTRAA */
+/* placeholder edit karte kaise hai */
+input::placeholder{
+    color: tomato;
+    text-decoration: overline;
+}
