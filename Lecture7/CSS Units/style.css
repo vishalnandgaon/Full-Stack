@@ -1,0 +1,63 @@
+/* absolute unit like px */
+#abs{
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+/* RELATIVE UNITS */
+
+
+/* percent unit */
+.a1{
+    /* ye apne parent element ke respect me 50% chota hoga,
+    here parent =body */
+    font-size: 50%;
+}
+
+.a2{
+    font-size: 60px;
+}
+
+.p1{
+    /* iska parent a2 hai , toh uske hisab se percent lega */
+    font-size:20%;
+}
+
+/* EM Unit */
+
+.important{
+    font-size: 20px;
+}
+
+li{
+    /* 2em ka matlb parent ka double */
+    /* this is snowball effect */
+    font-size: 2em;
+}
+
+
+/* REM likhna same tarike se h jaise em likhte h
+   ye dependent hoga root element(html) ke size pe*/
+
+.remclass{
+    font-size: 2rem;
+}
+
+
+/* view height and view width */
+/* viewport ke hisab se apne aap ko manage karta h */
+#pitara{
+    width: 50vw;
+    height: 50vh;
+    background-color: crimson;
+}
+
+
+/* vh vw % for dimensions
+ rem em for font size */
+
+
+
+ 
+

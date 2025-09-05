@@ -1,0 +1,32 @@
+.box{
+    /* dimensions */
+    width: 400px;
+    height: 200px;
+    /* border */
+    border: 3px dotted black;
+    border-top: 5px solid red;
+    /* margin */
+    /* margin hota h baki tags se distance ko kahte h */
+    /* margin: 80px; */
+    /* this is sab ek sng */
+    margin: 1px 100px 444px 123px;
+    /* this follows order- top right bottom left */
+    /* margin-left: 80px; */
+    /* margin-right: 4px; */
+    /* etc etc. */
+
+    /* padding */
+    /* padding kisi tag ke andar apas me space ya apas me space tags ke */
+    padding: 40px;
+    /* baki properties same as margin , follows clockwise direction */
+    /* agar me 4 ki jagah 2 value du toh ye first wali ko
+    top and bottom maan lega & dusri wali ko left and right ki maan lega */
+    /* agar 3 value dii toh 1.top 2.right and left 3.bottom */
+    background-color: orange;
+}
+.boxm{
+    border: 3px solid black;
+    background-color: chartreuse;
+    margin: 30px;
+    padding: 40px;
+}

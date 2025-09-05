@@ -1,0 +1,35 @@
+.one{
+    /* display: block; */
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    background-color: chocolate;
+}
+
+.two{
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(16, 111, 139);
+}
+
+
+/* iss properties se hum kisi bhi block element ko 
+and inline element ko block+inline dono ki properties de skte h
+and then hamara box model easily apply ho skta h  */
+
+
+div{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+}
+/* none se jo bhi space element occupy kar rha tha wo wapas
+aa jayegi and element gayab ho jaega */
+div:nth-of-type(2){
+    display: none;   
+}
+/* isme space occupy karega but dikhega nhi */
+div:nth-of-type(3){
+    visibility: hidden;
+}
