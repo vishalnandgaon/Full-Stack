@@ -1,0 +1,25 @@
+/* Float ka kaam normal flow se bahar nikalna */
+/* but iss case me element apni jagah khali nhi karta */
+
+.img1{
+    height: 400px;
+    width: 400px;
+    float: left;
+}
+
+/* Float ka opposite kaam karta h Clear */
+
+p:nth-of-type(2){
+    clear: left;
+}
+
+.img2{
+    height: 700px;
+    width: 699px;
+    float: right;
+}
+
+p:nth-of-type(3){
+    clear: both;
+}
+

@@ -1,0 +1,18 @@
+section{
+    width: 70vw;
+    border: 5px solid black;
+    margin: 30px auto;
+}
+
+img{
+    width: 250px;
+    float: left;
+    margin: 10pxs;
+}
+article{
+    margin: 15px;
+}
+
+.clear1{
+    clear: left;
+}

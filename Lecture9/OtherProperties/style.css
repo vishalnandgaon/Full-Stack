@@ -1,0 +1,22 @@
+/* p:nth-of-type(1){
+    white-space: nowrap;
+    overflow: scroll;
+    text-overflow: clip;
+
+} */
+
+p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 45px;
+    width: 300px;
+}
+
+p:hover{
+    overflow: scroll;
+    text-overflow: clip;
+    height: 48px;
+    width: 400px;
+}
+
