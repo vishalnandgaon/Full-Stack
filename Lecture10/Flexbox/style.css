@@ -1,0 +1,65 @@
+
+.parent{
+    width: 69vw;
+    border: 5px solid black;
+    height: 599px;
+    background-color: antiquewhite;
+    margin: 40px auto;
+    /* align elements in the main axis */
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: last baseline; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+
+    /* align-content: center;
+    align-content: flex-start;
+    align-content: space-between; */
+
+    /* CROSS AXIS PE KAAM KARNA */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+}
+
+div{
+    height: 150px;
+    width: 149px;
+    border: 2px solid black;
+    font-size: larger;
+}
+
+/* flex ek display property hai */
+/* ye property parent par lagti h , koe bhi child bahar nhi jana chahiye */
+
+/* FLEX BASIS
+FLEX SHRINK
+FLEX GROW */
+
+/* div:nth-of-type(5){
+    flex-basis: 250px;
+    flex-grow: 1;
+    flex-shrink: 2;
+    align-self: center;
+} */
+/* div:nth-of-type(1){
+    flex-grow: 1;
+    flex-shrink: 5;
+} */
+
+/* div:nth-of-type(3){
+    flex-grow: 2;
+    flex-shrink: 3;
+} */
+
+div:nth-of-type(2){
+    align-self: center;
+}
