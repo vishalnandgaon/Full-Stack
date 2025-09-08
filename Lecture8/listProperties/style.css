@@ -1,0 +1,16 @@
+li:first-child{
+    color: red;
+    border: 2px solid black;
+    /* but humara bullet point toh border ke bahar rhega  */
+    /* use this to let it inside the border */
+    list-style-position: inside;
+    /* isse hum kuch bhi bana skte h , start of list */
+    /* we can also use unicodes */
+    list-style-type: lower-roman;
+
+    /* we can use images as bullet point */
+    list-style-image: url();
+    /* paste url there */
+
+    
+}

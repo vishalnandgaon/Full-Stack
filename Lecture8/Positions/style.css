@@ -1,0 +1,66 @@
+div{
+    display: inline-block;
+    height: 199px;
+    width: 199px;
+    border: 3px solid black;
+    margin: 11px;
+}
+/* position = static me offset kabhi kaam karenge hiii
+nahi , as we have given top, left, right, bottom but no 
+effect on elements positon. As humne position static kar dii
+so it will follow the normal flow */
+#static #middle{
+    position: static;
+    top: 100px;
+    left: 100px;
+    bottom: 100px;
+    right: 100px;
+}
+
+
+/* RELATIVE POSITION */
+/* in this all offset works */
+#relative #middle{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+
+/* ABSOLUTE */
+/* it take the space with respect to the most reacent positioned parent */
+/* first check just parent if just parent didn't get any psn then uske parent ko
+dekhenge , if not last parent is body*/
+#absolute #middle{
+    position: absolute;
+    top: 150px;
+}
+
+/* FIXED */
+/* fixed position not dependent on parent,
+take position from body. */
+/* when we give offset to it , then it is visible */
+#fixed #middle{
+    position: fixed;
+    top: 2px;
+}
+
+
+
+#sticky{
+    height: 700px;
+    border: 2px solid black;
+}
+
+
+/* STICKY */
+/* it is mixture of two positions relative and fixed
+   depends on parent ki height, offeset lega according to viewport */
+#sticky #middle{
+    position: sticky;
+    top: 100px;
+}
+
+
+
+

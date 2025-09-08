@@ -1,0 +1,44 @@
+/* font family */
+p:nth-of-type(1){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+}
+
+/* font weight */
+
+p:nth-of-type(2){
+    color: green;
+    font-weight: 100px;
+}
+
+/* font style */
+p:nth-of-type(3){
+    font-style: italic;
+}
+
+/* line height */
+p:nth-of-type(3){
+    line-height: 50px;
+}
+
+/* letter space */
+p:nth-of-type(3){
+    letter-spacing: 30px;
+}
+
+/* text align */
+h1{
+    text-align: center;
+}
+
+
+/* TEXT SHADOW*/
+/* text-shadow: x,y,blur,color */
+h1{
+    text-shadow: 3px 3px 2px red,
+    6px 6px 2px blue,
+    9px 9px 2px green;
+
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px red;
+}
