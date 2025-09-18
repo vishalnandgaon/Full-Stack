@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+
+
+.parent{
+    width: 90vw;
+    height: 90vh;
+    background-color: bisque;
+    border: 2px solid black;
+    /* saare item saari jagah gher lete h  */
+    display: grid;
+    grid-template-columns: 200px 300px;
+    grid-template-rows: 200px 300px;
+    /* ye row wise by default grow karta h */
+    /* grid-auto-rows: 50px; */
+    grid-auto-columns: 50px;
+    /* by default ye row me grow karta h  */
+    /* to make it grow in column use grid auto flow=column */
+    grid-auto-flow: column;
+
+}
+
+.child{
+    background-color: darkcyan;
+    border: 1px solid black;
+}
+
+/* #vishal{
+    background-color: brown;
+    grid-column: span 2;
+    grid-row: 2;
+} */
+
+/* other way */
+
+/* #vishal{
+    background-color: brown;
+    grid-column-start: 2;
+    grid-column-end: 4;
+} */
+
+/* another way */
+
+/* #vishal{
+    background-color: brown;
+    grid-column:3 / 5;
+} */
+
+/* another way */
+#vishal{
+    background-color: brown;
+    grid-column:3 / span 2;
+}
+
+
+

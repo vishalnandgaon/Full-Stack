@@ -1,0 +1,20 @@
+div{
+    background-color: aqua;
+    width: 99px;
+    height: 99px;
+    border: 2px solid red;
+    /* we give transition properties */
+    /* transition: 3s; */
+    transition-duration: 2s;
+    /* transition-delay: 2s; */
+    /* agar me chahta hu ke transition kisi ek par aaye */
+    transition-property: 'border-radius';
+}
+
+/* ab ye change very fast hoga ,hum jaise hi hover karenge ye turant 
+    hii change ho jata h , but transition give custom changes to us*/
+div:hover{
+    background-color: red;
+    border: 2px solid aqua;
+    border-radius: 50%;
+}
