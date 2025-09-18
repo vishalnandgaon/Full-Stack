@@ -1,0 +1,87 @@
+/* body{
+    width:100vw;
+    height: 100vh;
+    background-color: blue;
+} */
+
+/* what if we change the size of the screen then the color of body changes */
+
+/* THESE ARE CALLED MEDIA QUERIES */
+
+/* isse jab hum printer se print krwaaenge toh color red hoga
+but hume display (on screen) blue hai */
+
+/* @media print{
+    body{
+        background-color: red;
+    }
+} */
+
+/* screen par apply karna media query */
+
+
+/* @media screen and (max-width:800px){
+    body{
+    background-color: brown;
+    }
+} */
+
+/* @media screen and (min-width:200px){
+    body{
+        background-color: greenyellow;
+    }
+} */
+
+/* Interview question */
+/* @media screen and (max-width:900px){
+    body{
+        background-color: red;
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: aqua;
+    }
+} */
+/* isme screen par kya dikhega  */
+
+@media all and (orientation: landscape){
+    body{
+        background-color: yellow;
+    }
+}
+
+
+@media screen and (orientation: landscape) , (min-width:600px){
+    h1{
+        color: red;
+    }
+}
+
+
+
+
+/* GRID  */
+/* grid ek parent property hai */
+/* flexbox ki trh but more powerful than flexbox */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.parent{
+    width: 90vw;
+    height: 90vh;
+    margin: 24px auto;
+    display: grid;
+    grid-template-columns: 200px 300px 200px;
+    /* we can make any number of columns */
+    grid-template-rows: 100px 100px 100px 100px;
+}
+
+.item{
+    background-color: rgb(46, 255, 255);
+     border: 2px solid black;
+}
