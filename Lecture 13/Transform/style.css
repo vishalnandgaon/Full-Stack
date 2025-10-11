@@ -1,0 +1,47 @@
+h1{
+    font-size: 40px;
+    color: rgb(16, 145, 150);
+    margin: 299px;
+    text-shadow: 1px 1px 0 #0a939c,
+        2px 2px 0 #d62839,
+        3px 3px 0 #a19a9a,
+        4px 4px 0 #926a6b,
+        5px 5px 0 #eb9d9e;
+    transition: 2s;
+}
+
+h1:hover{
+
+    /* inn sab me hum negative value bhi de skte h isse ye opposite direction me move karenge */
+    /* isse x direction me move karega  */
+    transform: translateX(399px);
+    /*  isse Y direction me move karega */
+    transform: translateY(399px);
+    /* transform z se z direction me move karega */
+    transform: translateZ(399px);
+
+
+    /* Rotation  */
+    transform: rotateX(120deg);
+
+    transform: rotateY(299deg);
+
+    transform: rotateZ(291deg);
+
+
+
+    /* SCALE PROPERTY */
+
+    transform: scaleX(1.2);
+    transform: scaleY(1.2);
+    transform: scaleZ(1.5);
+
+    transform: scale(1.5,1.5);
+
+
+    /* SKEW PROPERTY */
+
+    transform: skew(29deg);
+     /* format baki same as above */
+}
+

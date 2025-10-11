@@ -1,0 +1,41 @@
+body{
+    perspective: 1000px;
+}
+div{
+    width: 350px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+.sidea{
+    background-color: aqua;
+    z-index: 2;
+    backface-visibility: hidden;
+}
+.sideb{
+    background-color: red;
+    z-index: 1;
+    transform: rotateY(180deg);
+}
+
+.wrapper{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    transition: 2s;
+    
+    transform-style: preserve-3d;
+}
+.sidea,.sideb{
+    position: absolute;
+}
+
+/* Z-index , jiska z index jyada wo uppar display hoga  */
+
+.wrapper:hover{
+    transform: rotateY(180deg);
+}
+
+
+/* rotate hote time 3d feel chahiye
+use perspective property on parent ,here parent =body */

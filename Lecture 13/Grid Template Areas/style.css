@@ -1,0 +1,52 @@
+.container{
+    width: 90vw;
+    height: 90vh;
+    border: 2px solid black;
+    background-color: bisque;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 5fr 5fr 1fr;
+
+    /* Tgdaa kaam */
+    grid-template-areas: "header header header"
+                         "nav1 main nav2"
+                         "nav1 main nav3"
+                         "footer footer footer";
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
+
+.header{
+    background-color: chocolate;
+    grid-area: header;
+}
+
+.main{
+    background-color: pink;
+    grid-area: main;
+}
+
+.nav1{
+    background-color: bisque;
+    grid-area: nav1;
+}
+
+.nav2{
+    background-color: green;
+    grid-area: nav2;
+}
+
+.nav3{
+    background-color: purple;
+    grid-area: nav3;
+}
+
+.footer{
+    background-color: black;
+    color: whitesmoke;
+    grid-area: footer;
+}
