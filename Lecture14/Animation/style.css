@@ -1,0 +1,92 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border: 2px solid black;
+
+}
+
+.box:hover{
+    background-color: darkgreen;
+    /* height: 200px; */
+    animation-name: increaseHeight;
+    animation-duration: 2s;
+    /* animation-delay: 2s; */
+    animation-timing-function: ease-in;
+
+    /* animation-iteration-count: infinite; */
+
+    animation-iteration-count: 4;
+
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    /* animation-direction: alternate-reverse; */
+    animation-direction: normal;
+
+    animation-fill-mode: forwards;
+    /* isse 100% kaam hone ke baad wale kaam parr rok deta h */
+
+    animation-fill-mode: backwards;
+    /* ye initial state par rok deta h */
+
+
+    animation-play-state: paused;
+    /* ye animation ko rok deta h  */
+
+    animation-play-state: running;
+    /* work as normal */
+
+
+
+
+}
+
+/* keyframes and then koe bhi naam likh do, e.g. identifier ka naam 
+,ye kuch bhi naam de do  yarr */
+/* identifier ka naam dena pdega uppar jispe hum animation lagaenge */
+
+
+
+@keyframes increaseHeight{
+
+
+
+    /* from{
+        height: 100px;
+    } */
+
+
+    /* ye beech wala nhi chalega agar me beech wale me heigth jyada bhi de dunga toh
+    bhi ye beech wala nhi chalega */
+
+
+    /* to{
+        height: 400px;
+        background-color: crimson;
+    }
+    to{
+        height: 800px;
+        background-color: yellow;
+    } */
+
+
+    /* ye beech wale ko chalane ke liye we use percentage notation
+    ke hamara itna kaam hua h toh ye kar do */
+
+
+    0%{
+        height: 100px;
+        background-color: cadetblue;
+    }
+
+    50%{
+        height: 900px;
+        background-color: greenyellow;
+    }
+
+    100%{
+        height: 500px;
+        background-color: crimson;
+    }
+
+}

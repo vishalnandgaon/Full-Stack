@@ -1,0 +1,51 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-top: 10px solid red;
+    border-bottom: 10px solid green;
+    border-left: 10px solid yellow;
+    border-right: 10px solid black;
+    border-radius: 60px;
+    margin-left: 600px;
+    margin-top: 200px;
+}
+
+/* agar me initially isse ghumana hi chata hu toh inn sbb cheejon ko
+div ke andar de dunga not in div hover ke andar */
+div:hover{
+    animation-name: loader;
+    animation-name: loader,backcolor;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s, 300ms;
+    animation-timing-function: linear;
+}
+
+@keyframes loader {
+    0%{
+        transform: translateY(0px) rotate(0deg);
+        /* agar me neeche alag se transform likh ke translateY deta toh 
+        ye overwrite kar deta toh ye rotate nhi hoti */
+    }
+    50%{
+        transform: translateY(300px) rotate(180deg);
+    }
+
+    100%{
+        transform: translateY(0px) rotate(360deg);
+    }
+
+}
+
+@keyframes backcolor {
+     0%{
+        background-color: red;
+    }
+    50%{
+        background-color: greenyellow;
+    }
+
+    100%{
+        background-color: brown;
+    }
+
+}

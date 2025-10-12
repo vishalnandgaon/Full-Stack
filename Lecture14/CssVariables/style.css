@@ -1,0 +1,9 @@
+:root{
+    --color-red: #32b8bd;
+    --font-size-dedo: 36px;
+}
+
+article, h3, h4{
+    background-color: var(--color-red);
+    font-size: var(--font-size-dedo);
+}
