@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="./Style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="bluebackground">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: blue;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main class="bluebackground">
+
+    <!-- FORMS -->
+     <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+    <!-- Carousel -->
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images.unsplash.com/photo-1759333246345-8fc65596ab5d?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=792" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://media.istockphoto.com/id/1284797034/photo/cactus.webp?s=1024x1024&w=is&k=20&c=uwxRmNFjWUIEkeQOrkAHPrv-ycUDRwHjSQJUR7YqS-U=" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://media.istockphoto.com/id/2182925814/photo/prickly-blossoming-cactus-in-tenerife.jpg?s=1024x1024&w=is&k=20&c=XGXXUxBOgZYHDbaqS1AsG5wdBQRprbtKVRsUyOynrU4=" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Cards Section -->
+    <section class="container my-5">
+      <div class="row g-4 justify-content-center">
+
+        <!-- Card 1 -->
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 gx-5">
+          <div class="card h-100">
+            <img src="https://media.istockphoto.com/id/2182925814/photo/prickly-blossoming-cactus-in-tenerife.jpg?s=1024x1024&w=is&k=20&c=XGXXUxBOgZYHDbaqS1AsG5wdBQRprbtKVRsUyOynrU4=" class="card-img-top" alt="Cactus">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cactus Image</h5>
+              <p class="card-text">Some quick example text to build on the card title.</p>
+              <a href="#" class="btn btn-primary">Buy</a>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 gx-5 gy-5">
+          <div class="card h-100">
+            <img src="https://media.istockphoto.com/id/1284797034/photo/cactus.webp?s=1024x1024&w=is&k=20&c=uwxRmNFjWUIEkeQOrkAHPrv-ycUDRwHjSQJUR7YqS-U=" class="card-img-top" alt="Cactus">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cactus Image</h5>
+              <p class="card-text">Another example card text for layout.</p>
+              <a href="#" class="btn btn-primary">Buy</a>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1759333246345-8fc65596ab5d?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=792" class="card-img-top" alt="Cactus">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cactus Image</h5>
+              <p class="card-text">Example text for the third cactus card.</p>
+              <a href="#" class="btn btn-primary">Buy</a>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100">
+            <img src="https://media.istockphoto.com/id/2182925814/photo/prickly-blossoming-cactus-in-tenerife.jpg?s=1024x1024&w=is&k=20&c=XGXXUxBOgZYHDbaqS1AsG5wdBQRprbtKVRsUyOynrU4=" class="card-img-top" alt="Cactus">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cactus Image</h5>
+              <p class="card-text">Another cactus card example text.</p>
+              <a href="#" class="btn btn-primary">Buy</a>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100">
+            <img src="https://media.istockphoto.com/id/2182925814/photo/prickly-blossoming-cactus-in-tenerife.jpg?s=1024x1024&w=is&k=20&c=XGXXUxBOgZYHDbaqS1AsG5wdBQRprbtKVRsUyOynrU4=" class="card-img-top" alt="Cactus">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cactus Image</h5>
+              <p class="card-text">Another cactus card example text.</p>
+              <a href="#" class="btn btn-primary">Buy</a>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100">
+            <img src="https://media.istockphoto.com/id/2182925814/photo/prickly-blossoming-cactus-in-tenerife.jpg?s=1024x1024&w=is&k=20&c=XGXXUxBOgZYHDbaqS1AsG5wdBQRprbtKVRsUyOynrU4=" class="card-img-top" alt="Cactus">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cactus Image</h5>
+              <p class="card-text">Another cactus card example text.</p>
+              <a href="#" class="btn btn-primary">Buy</a>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row g-4 justify-content-center">
+
+        <!-- Card 1 -->
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100">
+            <img src="https://media.istockphoto.com/id/2182925814/photo/prickly-blossoming-cactus-in-tenerife.jpg?s=1024x1024&w=is&k=20&c=XGXXUxBOgZYHDbaqS1AsG5wdBQRprbtKVRsUyOynrU4=" class="card-img-top" alt="Cactus">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cactus Image</h5>
+              <p class="card-text">Some quick example text to build on the card title.</p>
+              <a href="#" class="btn btn-primary">Buy</a>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 gx-5 gy-5">
+          <div class="card h-100">
+            <img src="https://media.istockphoto.com/id/1284797034/photo/cactus.webp?s=1024x1024&w=is&k=20&c=uwxRmNFjWUIEkeQOrkAHPrv-ycUDRwHjSQJUR7YqS-U=" class="card-img-top" alt="Cactus">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cactus Image</h5>
+              <p class="card-text">Another example card text for layout.</p>
+              <a href="#" class="btn btn-primary">Buy</a>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1759333246345-8fc65596ab5d?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=792" class="card-img-top" alt="Cactus">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cactus Image</h5>
+              <p class="card-text">Example text for the third cactus card.</p>
+              <a href="#" class="btn btn-primary">Buy</a>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100">
+            <img src="https://media.istockphoto.com/id/2182925814/photo/prickly-blossoming-cactus-in-tenerife.jpg?s=1024x1024&w=is&k=20&c=XGXXUxBOgZYHDbaqS1AsG5wdBQRprbtKVRsUyOynrU4=" class="card-img-top" alt="Cactus">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cactus Image</h5>
+              <p class="card-text">Another cactus card example text.</p>
+              <a href="#" class="btn btn-primary">Buy</a>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100">
+            <img src="https://media.istockphoto.com/id/2182925814/photo/prickly-blossoming-cactus-in-tenerife.jpg?s=1024x1024&w=is&k=20&c=XGXXUxBOgZYHDbaqS1AsG5wdBQRprbtKVRsUyOynrU4=" class="card-img-top" alt="Cactus">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cactus Image</h5>
+              <p class="card-text">Another cactus card example text.</p>
+              <a href="#" class="btn btn-primary">Buy</a>
+              <a href="#" class="btn btn-success">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card h-100">
+            <img src="https://media.istockphoto.com/id/2182925814/photo/prickly-blossoming-cactus-in-tenerife.jpg?s=1024x1024&w=is&k=20&c=XGXXUxBOgZYHDbaqS1AsG5wdBQRprbtKVRsUyOynrU4=" class="card-img-top" alt="Cactus">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cactus Image</h5>
+              <p class="card-text">Another cactus card example text.</p>
+              <a href="#" class="btn btn-primary">Buy</a>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <br><br>
+
+    <div class="spinner-border text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+
+<div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-danger" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-warning" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-light" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-dark" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+
+
+
+<br><br>
+<!--  background  -->
+  <div class="text bg-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, minus? Excepturi vitae, soluta laborum porro quia fugit nisi, hic in distinctio vel nesciunt, ipsam perferendis ex accusamus maxime ratione alias omnis iusto beatae itaque.</div>
+  <div class="text bg-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, minus? Excepturi vitae, soluta laborum porro quia fugit nisi, hic in distinctio vel nesciunt, ipsam perferendis ex accusamus maxime ratione alias omnis iusto beatae itaque.</div>
+
+  </main>
+
+  <footer class="text-center py-3 bg-light">© 2025 My Cactus Store</footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
