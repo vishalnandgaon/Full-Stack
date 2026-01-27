@@ -16,6 +16,8 @@
 
 
 // Async always works with await
+// Async explained
+
 // Async is a function 
 async function some(){
     await new Promise((resolve,reject) =>{
